@@ -1,7 +1,7 @@
 ## The Empirical Impact of Neural Parameter Symmetries, or Lack Thereof
 
 
-by Derek Lim*, Theo (Moe) Putterman*, Robin Walters, Haggai Maron, Stefanie Jegelka. (MIT, UC Berkeley, Northeastern, Techion, NVIDIA, and TU Munich).
+by Derek Lim*, Theo (Moe) Putterman*, Robin Walters, Haggai Maron, Stefanie Jegelka. (MIT, UC Berkeley, Northeastern, Technion, NVIDIA, and TU Munich).
 
 [[arXiv](https://arxiv.org/abs/2405.20231)]. To appear at NeurIPS 2024.
 
