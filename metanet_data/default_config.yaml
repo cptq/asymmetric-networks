@@ -1,0 +1,29 @@
+data:
+  gpu: 0
+  num_workers: 8
+  train_dataset: ffcv/cifar_train.beton
+  val_dataset: ffcv/cifar_test.beton
+training:
+  batch_size: 512
+  epochs: 24
+  lr: 0.1
+  momentum: 0.9
+  lr_peak_epoch: 5
+  momentum: 0.9
+  weight_decay: 5e-4
+  label_smoothing: 0.1
+  lr_tta: false
+  num_workers: 1
+  optimizer_type: adamw
+model:
+  model_type: resnet8
+  w_multiplier: 1
+  mask_constant: 2
+  mask_num_fixed: 8
+  saved_mask: True
+misc:
+  interp: False
+  mli_interp: False
+  root: cifar10_nets/
+  save_path: data/temp/
+  save_name: temp
